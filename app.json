@@ -5,6 +5,12 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "app-todo-list"
+    },
+    "android": {
+      "package": "com.rodolfobelo.todolist"
+    }
   }
 }

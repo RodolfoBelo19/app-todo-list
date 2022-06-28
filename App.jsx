@@ -4,7 +4,6 @@ import { StyleSheet, Text, View, TouchableOpacity, KeyboardAvoidingView, TextInp
 import { styles } from './App.styles';
 import Task from '@components/Task';
 
-
 export default function App() {
   const [task, setTask] = useState();
   const [taskItems, setTaskItems] = useState([]);
